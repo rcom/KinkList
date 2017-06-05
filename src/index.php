@@ -11,187 +11,179 @@
 <body>
     <div class="widthWrapper">
         <button id="Edit"></button>
-        <h1>Kink list</h1>
+        <h1>Moje perwersje</h1>
         <div class="legend">
-            <div><span data-color="#FFFFFF" class="choice notEntered"></span> <span class="legend-text">Not Entered</span></div>
-            <div><span data-color="#6DB5FE" class="choice favorite"></span> <span class="legend-text">Favorite</span></div>
-            <div><span data-color="#23FD22" class="choice like"></span> <span class="legend-text">Like</span></div>
-            <div><span data-color="#FDFD6B" class="choice okay"></span> <span class="legend-text">Okay</span></div>
-            <div><span data-color="#DB6C00" class="choice maybe"></span> <span class="legend-text">Maybe</span></div>
-            <div><span data-color="#920000" class="choice no"></span> <span class="legend-text">No</span></div>
+            <div><span data-color="#FFFFFF" class="choice notEntered"></span> <span class="legend-text">brak wyboru</span></div>
+            <div><span data-color="#6DB5FE" class="choice favorite"></span> <span class="legend-text">uwielbiam</span></div>
+            <div><span data-color="#23FD22" class="choice like"></span> <span class="legend-text">lubię</span></div>
+            <div><span data-color="#FDFD6B" class="choice okay"></span> <span class="legend-text">ok</span></div>
+            <div><span data-color="#DB6C00" class="choice maybe"></span> <span class="legend-text">może</span></div>
+            <div><span data-color="#920000" class="choice no"></span> <span class="legend-text">nie lubię</span></div>
         </div>
         <div id="ExportWrapper">
             <input type="text" id="URL">
-            <button id="Export">Export</button>
-            <div id="Loading">Loading</div>
+            <button id="Export">eksport</button>
+            <div id="Loading">wczytywanie</div>
         </div>
         <button id="StartBtn"></button>
         <div id="InputList"></div>
     </div>
     <div id="EditOverlay" class="overlay">
         <textarea id="Kinks">
-#Bodies
-(General)
-* Skinny
-* Chubby
-* Small breasts
-* Large breasts
-* Small cocks
-* Large cocks
+#Ciało
+(ogólne)
+* szczuplejsza sylwetka
+* grubsza sylwetka
+* małe piersi
+* duże piersi
+* mały członek
+* duży członek
 
-#Clothing
-(Self, Partner)
-* Clothed sex
-* Lingerie
-* Stockings
-* Heels
-* Leather
-* Latex
-* Uniform / costume
-* Cross-dressing
+#Ubiór
+(ty, partner)
+* seks w ubraniu
+* bielizna
+* pończochy
+* szpilki
+* skóra
+* lateks
+* uniform / kostium (policjant, zakonnica itp.)
+* transwestytyzm (mężczyzna jako kobieta i odwrotnie)
 
-#Groupings
-(General)
-* You and 1 male
-* You and 1 female
-* You and MtF trans
-* You and FtM trans
-* You and 1 male, 1 female
-* You and 2 males
-* You and 2 females
-* Orgy
+#Grupy
+(ogólne)
+* ty i 1 mężczyzna
+* ty i 1 kobieta
+* ty i trans MtF (mężczyzna po zmianie płci na kobietę)
+* ty i trans FtM (kobieta po zmianie płci na mężczyznę)
+* ty i 1 mężczyzna + 1 kobieta
+* ty i 2 mężczyzn
+* ty i 2 kobiety
+* orgia
 
-#General
-(Giving, Receiving)
-* Romance / Affection
-* Handjob / fingering
-* Blowjob
-* Deep throat
-* Swallowing
-* Facials
-* Cunnilingus
-* Face-sitting
-* Edging
-* Teasing
-* JOI, SI
+#Ogólne
+(lubię robić komuś, lubię gdy ktoś mi robi)
+* romantyczny seks
+* zabawa ręką
+* obciąganie
+* lizanie cipki
+* głęboka penetracja ust (kutas do gardła)
+* wytrysk z połknięciem
+* wytrysk na twarz
+* wytrysk na piersi
+* wytrysk na cipkę
+* siadanie na twarzy
+* powstrzymywanie orgazmu
+* kuszenie
+* zachęcanie do onanizmu
 
-#Ass play
-(Giving, Receiving)
-* Anal toys
-* Anal sex, pegging
-* Rimming
-* Double penetration
-* Anal fisting
+#Seks analny
+(lubię robić komuś, lubię gdy ktoś mi robi)
+* zabawki analne
+* seks analny
+* rimming (lizanie dupki)
+* podwójna penetracja (kutas w cipce i w dupce)
+* fisting analny (cała dłoń w dupce)
 
-#Restrictive
-(Self, Partner)
-* Gag
-* Collar
-* Leash
-* Chastity
-* Bondage (Light)
-* Bondage (Heavy)
-* Encasement
+#Ograniczenia
+(ty, partner)
+* knebel
+* obroża
+* smycz
+* pas cnoty
+* wiązanie (lekkie)
+* wiązanie (mocne)
+* zamykanie w klatce
 
-#Toys
-(Self, Partner)
-* Dildos
-* Plugs
-* Vibrators
-* Sounding
+#Zabawki
+(ty, partner)
+* dildo (gumowy członek)
+* wibrator
+* korek analny
+* sounding (zabawka w cewce moczowej)
 
-#Domination
-(Dominant, Submissive)
-* Dominant / Submissive
-* Domestic servitude
-* Slavery
-* Pet play
-* DD/lg, MD/lb
-* Discipline
-* Begging
-* Forced orgasm
-* Orgasm control
-* Orgasm denial
-* Power exchange
+#Dominacja
+(strona dominująca, strona uległa)
+* dominacja / uległość
+* udawanie pomocy domowej
+* niewolnictwo
+* udawanie zwierząt (np. psa)
+* tatuś/córeczka, mamusia/synek
+* dyscyplina i uległość
+* błaganie o seks
+* wymuszanie orgazmu
+* kontrola orgazmu
+* zakazywanie dochodzenia do orgazmu
+* zmiana ról
 
-#No consent
-(Aggressor, Target)
-* Non-con / rape
-* Blackmail / coercion
-* Kidnapping
-* Drugs / alcohol
-* Sleep play
+#Brak zgody
+(lubię robić komuś, lubię gdy ktoś mi robi)
+* brak zgody / gwałt
+* szantaż
+* porwanie
+* pod wpływem narkotyków / alkoholu
+* seks podczas snu
 
-#Taboo
-(General)
-* Incest
-* Ageplay
-* Interracial / Raceplay
-* Bestiality
-* Necrophilia
-* Cheating
-* Exhibitionism
-* Voyeurism
+#Tabu
+(ogólne)
+* udawanie członka rodziny
+* udawanie niepełnoletniego
+* seks między rasami (np. z Murzynem/Murzynką)
+* zdrada (wiedza że partner zdradza)
+* ekshibicjonizm (publiczne obnażanie się)
+* podglądanie kogoś
+* zoofilia (zwierzęta)
 
-#Surrealism
-(Self, Partner)
-* Futanari
-* Furry
-* Vore
-* Transformation
-* Tentacles
-* Monster or Alien
+#Płyny
+(ogólne)
+* zabawa z krwią
+* zabawa z moczem
+* zabawa z kałem
+* laktacja
+* pieluchy
+* zabawa nasieniem
 
-#Fluids
-(General)
-* Blood
-* Watersports
-* Scat
-* Lactation
-* Diapers
-* Cum play
+#Poniżenie
+(lubię robić komuś, lubię gdy ktoś mi robi)
+* anonimowe obciąganie
+* wyzwiska
+* poniżanie
 
-#Degradation
-(Giving, Receiving)
-* Glory hole
-* Name calling
-* Humiliation
+#Dotyk i stymulacja
+(lubię robić komuś, lubię gdy ktoś mi robi)
+* uwielbienie kutasa/cipki
+* uwielbienie dupci
+* zabawa stopami
+* łaskotki
+* gra zmysłów (np. zabawa w zawiązanymi oczami)
+* stymulacja prądem
 
-#Touch & Stimulation
-(Actor, Subject)
-* Cock/Pussy worship
-* Ass worship
-* Foot play
-* Tickling
-* Sensation play
-* Electro stimulation
+#Różne
+(lubię robić komuś, lubię gdy ktoś mi robi)
+* fisting (wkładanie całej dłoni)
+* gangbang (stosunek z wieloma partnerami po kolei)
+* duszenie
+* zapłodnienie
+* seks w ciąży
+* udawanie kobiety przez mężczyznę
+* oddawanie partnera/partnerki do seksu z inną osobą
 
-#Misc. Fetish
-(Giving, Receiving)
-* Fisting
-* Gangbang
-* Breath play
-* Impregnation
-* Pregnancy
-* Feminization
-* Cuckold / Cuckquean
-
-#Pain
-(Giving, Receiving)
-* Light pain
-* Heavy pain
-* Nipple clamps
-* Clothes pins
-* Caning
-* Flogging
-* Beating
-* Spanking
-* Cock/Pussy slapping
-* Cock/Pussy torture
-* Hot Wax
-* Scratching
-* Biting
-* Cutting
+#Ból
+(lubię robić komuś, lubię gdy ktoś mi robi)
+* lekki ból
+* duży ból
+* klamry na sutki
+* klamerki do bielizny na ciele
+* chłosta trzciną
+* chłosta batem
+* bicie ręką
+* klapsy
+* klapsy kutasa/cipki
+* torturowanie kutasa/cipki
+* gorący wosk na ciało
+* drapanie
+* gryzienie
+* cięcie
         </textarea>
         <button id="KinksOK">Accept</button>
     </div>

@@ -7,8 +7,17 @@ var gulp = require('gulp'),
     babel = require('gulp-babel'),
     rollup = require('gulp-rollup'),
     uglify = require('gulp-uglify'),
+    gutil = require( 'gulp-util'),
+    ftpinfo = require('./ftpinfo'),
     ftp = require('vinyl-ftp'),
-    ftpinfo = require('./ftpinfo');
+
+    conn = ftp.create( {
+        host:     ftpinfo.config.host,
+        user:     ftpinfo.config.user,
+        password: ftpinfo.config.pass,
+        parallel: 10,
+        log:      gutil.log
+    } );
 
 gulp.task('sass', function(){
     gulp.src('src/scss/app.scss')
@@ -47,23 +56,19 @@ gulp.task('watch', function(){
 });
 
 gulp.task('ftp-test', function(){
-    var connection = ftp.create(ftpinfo);
     var globs = [ 'dist/**' ];
     return gulp.src(globs, { base: 'dist', buffer: false })
-        .pipe(connection.dest('/test.kinklist.info'));
+        .pipe(conn.dest('/beta'));
 });
 
 gulp.task('ftp-prod', function(){
-    var connection = ftp.create(ftpinfo);
     var globs = [ 'dist/**' ];
     return gulp.src(globs, { base: 'dist', buffer: false })
-        .pipe(connection.dest('/public_html'));
+        .pipe(conn.dest('/'));
 });
 
+
 gulp.task('deploy-test', ['build', 'ftp-test']);
-
 gulp.task('deploy-prod', ['build', 'ftp-prod']);
-
 gulp.task('dev', ['build', 'watch']);
-
 gulp.task('default', ['dev']);

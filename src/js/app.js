@@ -36,7 +36,7 @@ var level = {};
 
 $(function(){
 
-    var imgurClientId = '9db53e5936cd02f';
+    var imgurClientId = '28e0de8e0c3b1b8';
 
     inputKinks = {
         $columns: [],
@@ -402,8 +402,6 @@ $(function(){
                 }
             }
 
-            //return $(canvas).insertBefore($('#InputList'));
-
             // Send canvas to imgur
             $.ajax({
                 url: 'https://api.imgur.com/3/image',
@@ -416,7 +414,8 @@ $(function(){
                 data: {
                     // convert the image data to base64
                     image:  canvas.toDataURL().split(',')[1],
-                    type: 'base64'
+                    type: 'base64',
+                    album: 'lhZIT'
                 },
                 success: function(result) {
                     $('#Loading').hide();
